@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
       "source.unsplash.com",
       "images.unsplash.com",
       "flowbite.com",
+      "unsplash.com",
     ],
   },
 };
