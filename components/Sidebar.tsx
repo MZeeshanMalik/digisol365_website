@@ -45,37 +45,18 @@ const Sidebar = () => {
           <ul className="text-3xl font-semibold space-y-6">
             <li className="group">
               <button className="hover:text-buttoncolorhover focus:outline-none">
-                Home
+                <a href="/">Home</a>
               </button>
             </li>
             <li className="group relative">
               <button className="hover:text-buttoncolorhover focus:outline-none">
                 Services
               </button>
-              <ul className="mt-4 ml-4 space-y-2 hidden group-hover:block">
-                <li>
-                  <button className="hover:text-gray-300">Consulting</button>
-                </li>
-                <li>
-                  <button className="hover:text-gray-300">Design</button>
-                </li>
-                <li>
-                  <button className="hover:text-gray-300">Development</button>
-                </li>
-              </ul>
             </li>
             <li className="group relative">
               <button className="hover:text-buttoncolorhover focus:outline-none">
-                About
+                <a href="/about">About</a>
               </button>
-              <ul className="mt-4 ml-4 space-y-2 hidden group-hover:block">
-                <li>
-                  <button className="hover:text-gray-300">Team</button>
-                </li>
-                <li>
-                  <button className="hover:text-gray-300">Company</button>
-                </li>
-              </ul>
             </li>
             <li>
               <button className="hover:text-buttoncolorhover">Contact</button>
