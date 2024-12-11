@@ -6,7 +6,7 @@ import SubscriptionSection from "@/components/BlogPageComponents/SubscriptionSec
 import FloatingButton from "@/components/FloatingButton";
 import Footer from "@/components/Footer";
 import { useTheme } from "@/src/context/ThemeContext";
-import Image from "next/image";
+// import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 const BlogMasonry = () => {
