@@ -30,17 +30,17 @@ function Blogdata() {
       <div className="bg-background text-foreground py-12 px-4 lg:px-20">
         <div className="max-w-7xl mx-auto">
           {/* Blog Header */}
-          <header className="text-center mb-16">
-            <h1 className="text-5xl font-bold mb-4">
-              Insights Of Exploring Technology
-            </h1>
-            <div className="text-gray-400">
-              <span>By Emma Hogan</span> • <span>Dec 22, 2023</span> •{" "}
-              <span>8 min read</span> • <span>6 comments</span>
-            </div>
-          </header>
+          <div className="relative w-full h-[60vh]">
+            <Image
+              src="/coding.jpg"
+              alt="Blog image"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-lg"
+            />
+          </div>
 
-          <div className="flex flex-col lg:flex-row gap-16">
+          <div className="flex flex-col lg:flex-row gap-16 mt-8">
             {/* Main Content */}
             <main className="flex-1">
               <div className="space-y-6">
